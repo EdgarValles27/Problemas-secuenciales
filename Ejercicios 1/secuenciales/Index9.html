@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Costo de Llamada</title>
+
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body class="llamada">
+
+    <div class="contenedor">
+
+        
+        <img src="../Images/Llama.webp" alt="Llamada telefónica" class="imagen">
+
+        <h2>Costo de Llamada</h2>
+
+        <label for="Tiempo">Tiempo de la llamada:</label><br>
+        <input type="number" id="Tiempo" name="Tiempo"><br>
+
+        <label for="CostoMin">Costo por minuto:</label><br>
+        <input type="number" id="CostoMin" name="CostoMin"><br>
+
+        <button onclick="Costo()">Calcular</button>
+
+        <p id="result"></p>
+
+    </div>
+
+    <script src="../Scripts/Llamada.js"></script>
+
+</body>
+</html>

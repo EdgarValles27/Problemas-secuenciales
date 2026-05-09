@@ -1,0 +1,260 @@
+/* ===== GENERAL ===== */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+   
+}
+
+/* ===== CONTENEDOR ===== */
+
+.contenedor{
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+/* ===== INPUTS ===== */
+
+input{
+    width: 90%;
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+/* ===== BOTONES ===== */
+
+button{
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* ===== RESULTADO ===== */
+
+#result{
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+/* ================================================= */
+/* ===== ÁREA TRIÁNGULO ===== */
+/* ================================================= */
+
+.area{
+    background: #4facfe;
+}
+
+.area button{
+    background: #4facfe;
+}
+
+.area button:hover{
+    background: #2196f3;
+}
+
+ .imagen{
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+/* ================================================= */
+/* ===== CONVERSOR DÓLARES ===== */
+/* ================================================= */
+
+.dolar{
+    background: #43cea2;
+}
+
+.dolar button{
+    background: #43cea2;
+}
+
+.dolar button:hover{
+    background: #2ebd90;
+}
+
+.imagen{
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+/* ================================================= */
+/* ===== CALCULAR EDAD ===== */
+/* ================================================= */
+
+.edad{
+    background: #ff9966;
+}
+
+.edad button{
+    background: #ff9966;
+}
+
+.edad button:hover{
+    background: #ff7b42;
+}
+
+.imagen{
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+/* ================================================= */
+/* ===== ESTACIONAMIENTO ===== */
+/* ================================================= */
+
+.estacionamiento{
+    background: #667eea;
+}
+
+.estacionamiento button{
+    background: #667eea;
+}
+
+.estacionamiento button:hover{
+    background: #5568c9;
+}
+
+imagen{
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+/* ================================================= */
+/* ===== LA BROCHA GORDA ===== */
+/* ================================================= */
+
+.pintura{
+    background: #f39c12;
+}
+
+.pintura button{
+    background: #f39c12;
+}
+
+.pintura button:hover{
+    background: #d68910;
+}
+
+imagen{
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+
+/* ================================================= */
+/* ===== HIPOTENUSA ===== */
+/* ================================================= */
+
+.hipotenusa{
+    background: #8e44ad;
+}
+
+.hipotenusa button{
+    background: #8e44ad;
+}
+
+.hipotenusa button:hover{
+    background: #732d91;
+}
+
+imagen{
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+/* ================================================= */
+/* ===== AUTOBÚS ===== */
+/* ================================================= */
+
+.autobus{
+    background: #ff6b6b;
+}
+
+.autobus button{
+    background: #ff6b6b;
+}
+
+.autobus button:hover{
+    background: #e85a5a;
+}
+
+imagen{
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+/* ================================================= */
+/* ===== BICICLETA ===== */
+/* ================================================= */
+
+.bicicleta{
+    background: #00b894;
+}
+
+.bicicleta button{
+    background: #00b894;
+}
+
+.bicicleta button:hover{
+    background: #00997a;
+}
+
+imagen{
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+/* ================================================= */
+/* ===== LLAMADA ===== */
+/* ================================================= */
+
+.llamada{
+    background: #ff7675;
+}
+
+.llamada button{
+    background: #ff7675;
+}
+
+.llamada button:hover{
+    background: #e45f5e;
+}
+
+imagen{
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+/* ================================================= */
+/* ===== CONAGUA ===== */
+/* ================================================= */
+
+.conagua{
+    background: #3498db;
+}
+
+.conagua button{
+    background: #3498db;
+}
+
+.conagua button:hover{
+    background: #217dbb;
+}
+
+imagen{
+    width: 100px;
+    margin-bottom: 15px;
+}

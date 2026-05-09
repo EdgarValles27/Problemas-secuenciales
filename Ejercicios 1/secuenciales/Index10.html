@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONAGUA</title>
+
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body class="conagua">
+
+    <div class="contenedor">
+
+    
+        <img src="../Images/Cona.webp" alt="Consumo de agua" class="imagen">
+
+        <h2>Consumo de Agua</h2>
+
+        <label for="MetrosCu">Metros cúbicos:</label><br>
+        <input type="number" id="MetrosCu" name="MetrosCu"><br>
+
+        <label for="PrecioMcu">Precio por metro cúbico:</label><br>
+        <input type="number" id="PrecioMcu" name="PrecioMcu"><br>
+
+        <button onclick="Metrocubico()">Calcular</button>
+
+        <p id="result"></p>
+
+    </div>
+
+    <script src="../Scripts/Conagua.js"></script>
+
+</body>
+</html>

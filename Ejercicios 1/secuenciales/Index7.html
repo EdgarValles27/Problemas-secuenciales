@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viaje en Autobús</title>
+
+  
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body class="autobus">
+
+    <div class="contenedor">
+
+        
+        <img src="../Images/Auto.webp" alt="Autobús" class="imagen">
+
+        <h2>Costo del Viaje</h2>
+
+        <label for="Km">Kilómetros recorridos:</label><br>
+        <input type="number" id="Km" name="Km"><br>
+
+        <label for="PrecioKm">Precio por kilómetro:</label><br>
+        <input type="number" id="PrecioKm" name="PrecioKm"><br>
+
+        <button onclick="Distancia()">Calcular</button>
+
+        <p id="result"></p>
+
+    </div>
+
+    
+    <script src="../Scripts/Viaje.js"></script>
+
+</body>
+</html>
